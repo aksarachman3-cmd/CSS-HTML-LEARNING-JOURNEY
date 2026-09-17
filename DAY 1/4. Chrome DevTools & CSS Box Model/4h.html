@@ -1,0 +1,53 @@
+<!-- Create Pagination-->
+
+<button class="back-next-button">Back</button>
+<button class="page-button">1</button>
+<button class="page-button">2</button>
+<button class="page-button">3</button>
+<button class="page-button">4</button>
+<button class="page-button">5</button>
+<button class="back-next-button">Next</button>
+
+<style>
+    .back-next-button {
+        padding: 7px 6px 7px 6px;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        background-color: white;
+        border-color: rgba(128, 128, 128, 0.692);
+        transition: all 0.15s;
+    }
+    .page-button {
+        background: white;
+        border-color: rgba(128, 128, 128, 0.692);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.15s;
+    }
+
+    .back-next-button:hover {
+        color: rgb(14, 80, 180);
+        border-color: rgb(14, 80, 180);
+    }
+
+    .back-next-button:active {
+        background-color: rgb(14, 80, 180);
+        color: white;
+    }
+
+    .page-button:hover{
+        text-decoration: underline;
+        color: rgb(14, 80, 180);
+        border-color: rgb(14, 80, 180);
+    }
+
+    .page-button:active{
+       background-color: rgb(14, 80, 180);
+       color: white;
+    }
+
+</style>
