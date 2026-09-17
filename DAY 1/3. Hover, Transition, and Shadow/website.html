@@ -61,10 +61,14 @@
         height: 36px; /* tinggi tombol sebesar 36 pixels */
         width: 70px; /* lebar tombol sebesar 70 pixels */
         cursor: pointer; /* membuat mouse menjadi pointer ketika melewati tombol */
-        transition: all 0.15s; /* menerima 2 paramter, apa yang ditransisikan, dan berapa lama terjadinya */
+        transition: box-shadow opacity 0.15s; /* menerima 2 paramter, apa yang ditransisikan, dan berapa lama terjadinya */
     }
 
     .tweet-button:hover {
-        box-shadow: -2px 2px 3px 2px rgba(128, 128, 128, 0.288);
+        box-shadow: 2px 8px 10px rgba(128, 128, 128, 0.288);
+    }
+
+    .tweet-button:active {
+        opacity: 0.7;
     }
 </style>
