@@ -9,9 +9,9 @@ I'm learning HTML and CSS through SimpleDev's CSS and HTML video
 ## Progress Documentation
 This part will documentate my progress each day 
 
-| *Day* | *Materials* |
-| ----- | ----------- |
-| Day 1 | 1. HTML Basics (1a-1f) <br> 2. CSS Basics (2a-2e) <br> 3. Hover,Transition, and Shadow (3a-3b) |
+| Day | Materials |
+| --- | --- |
+| Day 1 | 1. HTML Basics (1a-1f)<br>2. CSS Basics (2a-2e)<br>3. Hover, Transition, and Shadow (3a-3b) |
 
 
 ## File Management
