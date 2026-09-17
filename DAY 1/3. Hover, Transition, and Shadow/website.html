@@ -1,0 +1,70 @@
+<!-- we copy form 2.css basics website.html-->
+
+<!-- example di sumpersimple.dev/exercises/buttons-->
+
+<button class="subscribe-button">SUBSCRIBE</button> <!--class adalah cara memberikan label pada komponen html-->
+<button class="join-button">JOIN</button>
+<button class="tweet-button">Tweet</button>
+
+<!--penambahan css-->
+<style>
+    .subscribe-button { /* 'button' disebut sebagai 'css selector' */
+        background-color: rgb(199, 0, 0); /* mengedit semua button menjadi background merah */
+        color: white; /* mengubah warna teks menjadi putih */
+        border: none; /* menghilangkan semua aspek dari border */
+        height: 36px; /* tinggi tombol sebesar 36 pixels */
+        width: 105px; /* lebar tombol sebesar 105 pixels */
+        border-radius: 1px; /* mengatur ketajaman ujung ujung shapes */
+        cursor: pointer; /* membuat mouse menjadi pointer ketika melewati tombol */
+        margin-right: 8px;
+        transition: opacity 0.15s; /* menerima 2 paramter, apa yang ditransisikan, dan berapa lama terjadinya */
+    }
+
+    .subscribe-button:hover { /* alat untuk mengedit style saat menghover */
+        opacity: 0.733; /* mengubah opacity menjadi 0.733 */
+    }
+
+    .subscribe-button:active { /* alat untuk mengedit style saat kita klik */
+        opacity: 0.39; /* mengubah opacity menjadi 0.39 */
+    }
+
+    .join-button {
+        background-color: white; /* mengubah warna background menjadi putih */
+        color: rgb(29, 95, 218); /* mengubah warna font menjadi biru */
+        border-radius: 1px; /* mengatur ketajaman ujung ujung sudut shape */
+        height: 36px; /* tinggi tombol sebesar 36 pixels */
+        width: 70px; /* lebar tombol sebesar 70 pixels */
+        border-radius: 3px; /* mengatur ketajaman ujung ujung shapes */
+        border-color: rgb(29, 95, 218);  /* mengubah waran border menjadi biru */
+        border-style: solid; /* buat warna border rata di semua tempat */
+        border-width: 1px; /* mengubah ketebalan border */
+        cursor: pointer; /* membuat mouse menjadi pointer ketika melewati tombol */
+        margin-right: 8px;
+        transition: all 0.15s; /* menerima 2 paramter, apa yang ditransisikan, dan berapa lama terjadinya */
+    }
+    
+    .join-button:hover {
+        /* warna background dan font ditukar */
+        background-color: rgb(29, 95, 218);
+        color:white;
+    }
+
+    .join-button:active {
+       opacity: 0.7; /* mengubah opacity menjadi 0.7 */
+    }
+
+    .tweet-button {
+        background-color: rgb(15, 138, 240); /* mengubah warna background menjadi biru */
+        color: white;  /* mengubah warna font menjadi biru */
+        border: none; /* menghilangkan semua aspek dari border */
+        border-radius: 20px; /* mengatur ketajaman ujung ujung sudut shape */
+        height: 36px; /* tinggi tombol sebesar 36 pixels */
+        width: 70px; /* lebar tombol sebesar 70 pixels */
+        cursor: pointer; /* membuat mouse menjadi pointer ketika melewati tombol */
+        transition: all 0.15s; /* menerima 2 paramter, apa yang ditransisikan, dan berapa lama terjadinya */
+    }
+
+    .tweet-button:hover {
+        box-shadow: -2px 2px 3px 2px rgba(128, 128, 128, 0.288);
+    }
+</style>
