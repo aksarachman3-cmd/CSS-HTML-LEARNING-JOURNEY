@@ -1,0 +1,42 @@
+p {
+    font-family: Roboto;  
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.thumbnail {
+    width: 300px;
+    display: block;
+}
+
+.video-title {
+    /*Secara default, text ditulis dalam Times New Roman */
+    font-weight: bold; /*membuat text menjadi bold */
+    /* menulis font-style: italic untuk membuat teks italic */
+    /*Kita bisa justify text dengan text-align */
+    font-size: 16px; /*mengubah ukuran text */
+    width: 300px;
+    /*kita bisa atur jarak antar baris dengan line-height */
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+.video-stats {
+    font-size: 14px;
+    color: rgb(36, 35, 35);
+    margin-bottom: 20px;
+}
+
+/* Paragraph at default has margins */
+.video-author {
+    font-size: 14px;
+    color: rgb(36, 35, 35);
+    margin-bottom: 10px;
+}
+
+.video-description {
+    font-size: 14px;
+    color: rgb(36, 35, 35);
+    width: 300px;
+    line-height: 22px;
+}

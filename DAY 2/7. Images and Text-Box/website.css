@@ -1,0 +1,9 @@
+.thumbnail {
+    width: 300px; 
+    height: 300px;
+    /*bentuk gambar jadi distortede */
+
+    object-fit: cover; /* proporsi image masih sama, tapi dibuat agar pas atau lebih dari width dan heightnya */
+    object-fit: contain; /* ukuran image disesuaikan agar semua fotonya masuk ke dalam bingkai */
+    object-position: center; /* cara memposisikan foto dalam bingkai */
+}

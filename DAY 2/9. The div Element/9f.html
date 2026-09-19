@@ -1,0 +1,74 @@
+<!-- Create Profile Cards-->
+<link rel="stylesheet" href="youtube.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<div class="profile-card">
+    <img class="profile-pic" src="resource/cat_photo.avif">
+    <p class="name-text">Oliver</p>
+    <p class="amount-mutual-text">2 mutual friends</p>
+    <button class="add-friend-button">Add Friend</button>
+</div>
+
+<div class="profile-card">
+    <img class="profile-pic" src="resource/dog-pic.jpg">
+    <p class="name-text">Mimi</p>
+    <p class="amount-mutual-text">3 mutual friends</p>
+    <button class="add-friend-button">Add Friend</button>
+</div>
+
+<div class="profile-card">
+    <img class="profile-pic" src="resource/dog_pic.avif">
+    <p class="name-text">Felix</p>
+    <p class="amount-mutual-text">4 mutual friends</p>
+    <button class="add-friend-button">Add Friend</button>
+</div>
+
+<style>
+    .profile-card{
+        display: inline-block;
+        width: 120px;
+        height: 200px;
+        border: none;
+        box-shadow: 0px 0px 7px grey;
+        margin-right: 12px;
+        border-radius: 10px;
+    }
+
+    .profile-pic {
+        object-fit: cover;
+        width: 100%;
+        height: 120px;
+        margin-bottom: 2px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    p {
+        margin-top: 0px;
+        font-family: Roboto;
+        margin-bottom: 4px;
+        margin-left: 5px;
+    }
+    .name-text {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .amount-mutual-text {
+        font-size: 12px;
+        color: rgb(95, 94, 94);
+    }
+
+    button {
+        margin-top: 5px;
+        margin-left: 5px;
+        padding: 5px 10px 5px 10px;
+        border: none;
+        border-radius: 4px;
+        font-size: 11px;
+        font-family: Roboto;
+        color: white;
+        background-color: rgb(33, 127, 250);
+    }
+</style>
